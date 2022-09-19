@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+             x:Class="FirstXamarin.MainPage">
+    <StackLayout x:Name = "mainCatchStack" Orientation="Vertical" Margin="0, 50">
+        <Image x:Name="TopArrowImage" HeightRequest="200" WidthRequest="200" Rotation="180"/>
+        <StackLayout x:Name="apearingAnimationStack" Orientation="Horizontal" VerticalOptions="CenterAndExpand" Padding="30, 0">
+
+            <forms:AnimationView HorizontalOptions="CenterAndExpand" WidthRequest="120" HeightRequest="120"
+                                 Animation="Resources.appearing.json" AnimationSource="EmbeddedResource" AutoPlay="True" OnFinishedAnimation="RemoveAnimationAddButtons"/>
+            <forms:AnimationView HorizontalOptions="CenterAndExpand" WidthRequest="120" HeightRequest="120"
+                                 Animation="Resources.appearing.json" AnimationSource="EmbeddedResource" AutoPlay="True"/>
+
+        </StackLayout>
+        <Image x:Name="BottomArrowImage" HeightRequest="200" WidthRequest="200"/>
+    </StackLayout>
+    
+    
+</ContentPage>
+

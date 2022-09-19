@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="FirstXamarin.LoadedObjectsContent">
+
+    <StackLayout Spacing="0">
+        <Frame HeightRequest="88" BackgroundColor="Coral" HasShadow="false"
+               CornerRadius="0" Padding="20, 44, 0, 0" BorderColor="Gray">
+            <StackLayout Orientation="Horizontal" Padding="0, 0, 10, 20">
+                <Image x:Name="backButtonImage" HeightRequest="50" WidthRequest="50" HorizontalOptions="Start" />
+                <Label Text="Your results" TextTransform="Uppercase" FontSize="Medium" HorizontalOptions="EndAndExpand" TextColor="White" HeightRequest="50" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                <Frame x:Name="pickerFrame" HasShadow="True" BorderColor="Gray" HorizontalOptions="EndAndExpand" Padding="0">
+                    <Picker x:Name="productFilter" Title="-Select-" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HorizontalTextAlignment="Center">
+                        <Picker.Items>
+                            <x:String>All</x:String>
+                            <x:String>Auktion</x:String>
+                            <x:String>Sofort kaufen</x:String>
+                        </Picker.Items>
+                    </Picker>
+                </Frame>
+
+            </StackLayout>
+        </Frame>
+
+        <ScrollView>
+            <StackLayout x:Name="mainStack" VerticalOptions="Start" Margin="0, 20, 0, 0"/>
+
+        </ScrollView>
+
+
+    </StackLayout>
+</ContentPage>
+

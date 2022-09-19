@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="FirstXamarin.OnlineSendRequestPage">
+    <StackLayout Orientation="Vertical">
+        <Frame VerticalOptions="Start" HeightRequest="50" BackgroundColor="Coral" HasShadow="False">
+            <StackLayout Orientation="Horizontal" VerticalOptions="End" HorizontalOptions="End" Spacing="10">
+                <Frame Padding="5" HorizontalOptions="End" BorderColor="Gray" BackgroundColor="SkyBlue" HeightRequest="30" WidthRequest="30">
+                    <Image x:Name="plusImage" Aspect="AspectFill"/>
+                </Frame>
+                <Frame Padding="5" HorizontalOptions="End" BorderColor="Gray" BackgroundColor="SkyBlue" HeightRequest="30" WidthRequest="30">
+                    <Image x:Name="minusImage" Aspect="AspectFill"/>
+                </Frame>
+            </StackLayout>
+        </Frame>
+
+        <ScrollView VerticalOptions="StartAndExpand">
+            <StackLayout x:Name="searchingStack" Padding="10, 20">
+                <Frame x:Name="searchingFrame" BackgroundColor="LightBlue" >
+                    <StackLayout Orientation="Vertical">
+                        <Entry Text="Searching tag" VerticalOptions="Start" HorizontalOptions="FillAndExpand"/>
+                        <StackLayout Orientation="Horizontal">
+                            <Entry x:Name="minEntry" Text="Min" HorizontalOptions="Start" TextChanged="checkDigitEntry" Keyboard="Numeric"/>
+                            <Entry x:Name="maxEntry" Text="Max" HorizontalOptions="Start" TextChanged="checkDigitEntry" Keyboard="Numeric"/>
+
+                            <Picker Title="Sorting" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center">
+                                <Picker.Items>
+                                    <x:String>Default</x:String>
+                                    <x:String>Price min-max</x:String>
+                                    <x:String>Price max-min</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <ScrollView Padding="5" Orientation="Horizontal">
+                            <StackLayout x:Name="addRemoveSearchingTags" Orientation="Horizontal">
+                                <Frame BorderColor="Gray" Padding="0">
+                                    <StackLayout Orientation="Horizontal" BackgroundColor="Gray">
+                                        <Entry Text="Tag" HorizontalTextAlignment="Center" WidthRequest="100"/>
+                                        <Frame BackgroundColor="OrangeRed" IsClippedToBounds="True" Padding="5">
+                                            <Image x:Name="removeTagPlusImage" Aspect="AspectFill" HeightRequest="30" WidthRequest="30"/>
+                                        </Frame>
+                                    </StackLayout>
+                                </Frame>
+                                <!--<Frame BorderColor="Gray" Padding="0">
+                                    <StackLayout Orientation="Horizontal" BackgroundColor="Gray">
+                                        <Entry Text="Tag" HorizontalTextAlignment="Center" TextChanged="ResizeLabelFrame" WidthRequest="100"/>
+                                        <Frame BackgroundColor="OrangeRed" IsClippedToBounds="True" Padding="5">
+                                            <Image x:Name="removeTagPlusImage2" Aspect="AspectFill" HeightRequest="30" WidthRequest="30"/>
+                                        </Frame>
+                                    </StackLayout>
+                                </Frame>
+                                <Frame BorderColor="Gray" Padding="0">
+                                    <StackLayout Orientation="Horizontal" BackgroundColor="Gray">
+                                        <Entry Text="Tag" HorizontalTextAlignment="Center" TextChanged="ResizeLabelFrame" WidthRequest="100"/>
+                                        <Frame BackgroundColor="OrangeRed" IsClippedToBounds="True" Padding="5">
+                                            <Image x:Name="removeTagPlusImage3" Aspect="AspectFill" HeightRequest="30" WidthRequest="30"/>
+                                        </Frame>
+                                    </StackLayout>
+                                </Frame>-->
+                                <Frame BackgroundColor="YellowGreen" IsClippedToBounds="True" Padding="5">
+                                    <Image x:Name="addTagPlusImage" Aspect="AspectFill" HeightRequest="30" WidthRequest="30"/>
+                                </Frame>
+
+                            </StackLayout>
+                        </ScrollView>
+                    </StackLayout>
+                </Frame>
+
+            </StackLayout>
+
+        </ScrollView>
+
+
+    </StackLayout>
+</ContentPage>
+

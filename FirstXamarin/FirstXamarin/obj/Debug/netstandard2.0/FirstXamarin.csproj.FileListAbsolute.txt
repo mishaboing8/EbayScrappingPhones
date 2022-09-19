@@ -1,0 +1,16 @@
+/Users/mihails/Projects/FirstXamarin/FirstXamarin/FirstXamarin/bin/Debug/netstandard2.0/FirstXamarin.deps.json
+/Users/mihails/Projects/FirstXamarin/FirstXamarin/FirstXamarin/bin/Debug/netstandard2.0/FirstXamarin.dll
+/Users/mihails/Projects/FirstXamarin/FirstXamarin/FirstXamarin/bin/Debug/netstandard2.0/ref/FirstXamarin.dll
+/Users/mihails/Projects/FirstXamarin/FirstXamarin/FirstXamarin/bin/Debug/netstandard2.0/FirstXamarin.pdb
+/Users/mihails/Projects/FirstXamarin/FirstXamarin/FirstXamarin/obj/Debug/netstandard2.0/FirstXamarin.csproj.AssemblyReference.cache
+/Users/mihails/Projects/FirstXamarin/FirstXamarin/FirstXamarin/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/mihails/Projects/FirstXamarin/FirstXamarin/FirstXamarin/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/mihails/Projects/FirstXamarin/FirstXamarin/FirstXamarin/obj/Debug/netstandard2.0/FirstXamarin.AssemblyInfoInputs.cache
+/Users/mihails/Projects/FirstXamarin/FirstXamarin/FirstXamarin/obj/Debug/netstandard2.0/FirstXamarin.AssemblyInfo.cs
+/Users/mihails/Projects/FirstXamarin/FirstXamarin/FirstXamarin/obj/Debug/netstandard2.0/FirstXamarin.csproj.CoreCompileInputs.cache
+/Users/mihails/Projects/FirstXamarin/FirstXamarin/FirstXamarin/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/mihails/Projects/FirstXamarin/FirstXamarin/FirstXamarin/obj/Debug/netstandard2.0/FirstXamarin.dll
+/Users/mihails/Projects/FirstXamarin/FirstXamarin/FirstXamarin/obj/Debug/netstandard2.0/ref/FirstXamarin.dll
+/Users/mihails/Projects/FirstXamarin/FirstXamarin/FirstXamarin/obj/Debug/netstandard2.0/FirstXamarin.pdb
+/Users/mihails/Projects/FirstXamarin/FirstXamarin/FirstXamarin/obj/Debug/netstandard2.0/LoadedObjectsContent.xaml.g.cs
+/Users/mihails/Projects/FirstXamarin/FirstXamarin/FirstXamarin/obj/Debug/netstandard2.0/OnlineSendRequestPage.xaml.g.cs
