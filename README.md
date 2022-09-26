@@ -7,7 +7,7 @@ Currently used just in Iphones
 
 HOW TO USE:
 1) Start server in EbayScrappGoogleAI (see readme in its repository) (It will be local host with port 80)(please use dyn. IP adress);
-2) Go online with xamarin application;
+2) Go online with xamarin application;\n
 ![alt text](https://github.com/mishaboing8/EbayScrappingPhones/blob/main/ScreenShots/Screenshot%202022-09-26%20at%2014.43.16.png)
 3) Enter your ip Adress and port (default will be local host, port 80);
 ![alt text](https://github.com/mishaboing8/EbayScrappingPhones/blob/main/ScreenShots/Screenshot%202022-09-26%20at%2014.43.26.png)
